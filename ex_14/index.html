@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+</hr>
+<form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+<fieldset>
+    <legend>User Form</legend>
+    <label>Name:</label>    
+    <input type="text" placeholder="username" name="username" size="30" maxlength="12"/>
+    <label>Password:</label> 
+    <input type="password" name="password" size="30" maxlength="8" placeholder="password"/>
+    <form>
+       <p>Select your favourite superhero:</p> 
+       <div>
+        <input type="radio" id="Batman" name="superheros" value="Batman"
+               checked>
+        <label for="Batman">Batman</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="Superman" name="superheros" value="Superman">
+        <label for="Superman">Superman</label>
+      </div>
+      <div>
+        <input type="radio" id="Flash" name="superheros" value="Flash">
+        <label for="Flash">Flash</label>
+      </div>
+      <div>
+        <input type="radio" id="Thor & Hulk" name="superheros" value="Thor & Hulk">
+        <label for="Thor & Hulk">Thor & Hulk</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="Wonder Woman" name="superheros" value="Wonder Woman">
+        <label for="Wonder Woman">Wonder Woman</label>
+      </div>
+      </form>
+    </br>
+    
+      <form>
+        Select your favourite video game:
+        <input type="checkbox" name="videogames" id="fifa" value="fifa" checked="checked" >
+        <label for="fifa">Fifa</label>
+        <input type="checkbox" name="videogames" id="uncharted" value="uncharted" checked>
+        <label for="uncharted">Uncharted</label>
+        <input type="checkbox" name="videogames" id="nhl" value="nhl"> 
+        <label for="nhl">NHL</label>
+        <input type="checkbox" name="videogames" id="residen evil" value="residen evil">
+        <label for="residen evil">Residen Evil</label>
+        <input type="hidden" name="userid" value="2300" >
+      </form>
+    </br>
+      <form>
+<input type="date" id="birthday" name="birthday"
+       value="2018-07-22"
+       min="1900-01-01" max="2021-12-31">
+       <label for="birthday">Select yout birthday</label>
+      </form></br> 
+      <form>
+       <input type="email" id="email" name="email" />
+       <label for="email">Select yout email</label>
+      </form></br>
+      <form>
+       <input type="url" id="url" name="personalsite" />
+       <label for="url">Select yout URL</label>
+      </form> </br>
+   <form action="https://www.google.ca/search" method="get" enctype="multipart/form-data">
+        <input type="search" placeholder="Search.." id="search" name="q">
+        <label for="search"></label>
+  <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </br>
+    <form>
+    <input type="image" name="login" src="img/register_button.png.png" width="6%" >
+  </form>
+</fieldset> 
+</form>
+
+
+</body>
+</html>
