@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My site</title>
     <link rel="shortcut icon" href="img/coding_computer_pc_screen_code_icon_193925.ico" type="image/x-icon">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <h1>My site</h1>
@@ -45,14 +46,47 @@
             <td>George S. Clason</td>
            </tr>
            <td colspan="4">
-               <img src="https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg" alt="books shelf">
+               <img src="https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg" alt="books shelf" height="450">
            </td>
-           <tr>
-
-           </tr>
-           
           </tbody>
           </table>
+          <form>
+            Select your favourite video game:
+            <input type="checkbox" name="videogames" id="fifa" value="fifa" checked="checked" >
+            <label for="fifa">Fifa</label>
+            <input type="checkbox" name="videogames" id="uncharted" value="uncharted" checked>
+            <label for="uncharted">Uncharted</label>
+            <input type="checkbox" name="videogames" id="nhl" value="nhl"> 
+            <label for="nhl">NHL</label>
+            <input type="checkbox" name="videogames" id="residen evil" value="residen evil">
+            <label for="residen evil">Residen Evil</label>
+            <input type="hidden" name="userid" value="2300" >
+          </form>
+        </br>
+        <fieldset>
+          <form>
+    <input type="date" id="birthday" name="birthday"
+           value="2018-07-22"
+           min="1900-01-01" max="2021-12-31" required>
+           <label for="birthday">Select yout birthday</label>
+          </form></br> 
+          <form>
+           <input type="email" id="email" name="email" required/>
+           <label for="email">Select yout email</label>
+          </form></br>
+        
+       <form action="https://www.google.ca/search" method="get" enctype="multipart/form-data">
+            <input type="search" placeholder="Search.." id="search" name="q">
+            <label for="search"></label>
+      <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          <iframe src="about.html" width="1100" height="800" seamless frameborder="0"></iframe>
+        <br>
+        <audio autoplay controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" />
+          <p>Your browser doesn't support audio, please update.</p>
+        </audio>
+        </fieldset>
     
 </body>
 </html>
